@@ -1,0 +1,298 @@
+<!-- revisar: -desplazamiento pequeño -collapse(listo) -pills -footer precios(listo) -nav responsive(tyc solo) -->
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Guía Hoteles</title>
+
+    <link rel="stylesheet" href="css/index.88d240031658ea7ac1a5.css">
+
+  </head>
+  <body>
+      <nav class="navbar navbar-expand-sm bg-body-tertiary navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Hoteles</a>
+          <div class="d-block d-sm-block d-md-none">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>    
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./about.html">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./precios.html">Precios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./terminos-y-condiciones.html">Términos y Condiciones</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
+                </ul>   
+          </div>    
+        </div>
+      </nav>
+      <div class="jumbotron">
+        <img src="images/banner1.jpg" class="img-fluid min-vw-100" alt="banner">
+      </div>
+      <div class="container">
+        <div class="breadcrumb">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item active" aria-current="page">Home</li>
+            </ol>
+          </nav>
+        </div>
+        <hr>
+          <div class="descripcion-hoteles">
+          
+            <div class="row info-principal">
+              <p>
+                <button class="btn btn-primary col-sm-3" data-bs-toggle="collapse" href="#funcionamiento" role="button" aria-expanded="false" aria-controls="funcionamiento">¿Cómo Funciona?</button>
+                <button class="btn btn-primary col-sm-3" type="button" data-bs-toggle="collapse" data-bs-target="#reserva" aria-expanded="false" aria-controls="reserva">¿Cómo se Reserva?</button>
+                <button class="btn btn-primary col-sm-3" type="button" data-bs-toggle="collapse" data-bs-target="#pago" aria-expanded="false" aria-controls="pago">¿Cómo Pago?</button>
+              </p>
+              <div class="row">
+                <div class="col">
+                  <div class="collapse multi-collapse" id="funcionamiento">
+                    <div class="card card-body">
+                      El sitio ofrece un amplio catálogo de hotelería en todo el país. Posteriormente, usted deberá realizar la reserva mediante los formularios correspondientes al hotel que desee reservar.
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="collapse multi-collapse" id="reserva">
+                    <div class="card card-body">
+                      La reserva se realiza completando sus datos personales, el formulario y enviando un comprobante del depósito o transferencia.  
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="collapse multi-collapse" id="pago">
+                    <div class="card card-body">
+                      Para realizar el pago, debe ingresar los datos de su tarjeta y abonar mediante la página, o mediante transferencia bancaria. Puede encontrar mas información en la sección "Precios".  
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <hr>
+
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/slide1.jpg" class="d-block w-100" alt="Mendoza">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="carousel-text">Mendoza</h5>
+                  <p class="carousel-text">Disrute del increíble paisaje mendocino</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/slide2.jpg" class="d-block w-100" alt="Perito Moreno">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="carousel-text black">Santa Cruz</h5>
+                  <p class="carousel-text black">Observe el imponente glaciar Perito Moreno</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/slide3.jpg" class="d-block w-100" alt="Salta">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="carousel-text">Salta</h5>
+                  <p class="carousel-text">Deléitese frente a la tierra de los mil colores</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <hr>
+          <div class="lista-hoteles">
+            <div class="d-flex flex-wrap">
+              <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+              <div class="card-body">
+                <h5 class="card-title">Hotel 1</h5>
+                <h6 class="card-subtitle text-muted">Entre Ríos</h6>
+                <img class="card-img-top" src="images/hotel.jpg" alt="hotel img">
+                <p class="card-text">Lorem ipsum dolor, eligendi magnam doloribus? Animi, dolores. Dolores voluptatem a illo?</p>
+                </div>
+              <div>
+                  <button type="button" class="btn btn-primary btn-reserva" id="btn-reserva" data-bs-toggle="modal" data-bs-target="#modal-reserva"><span class="oi oi-plus add-icon"></span>Reservar</button>
+              </div>
+              </div>
+              <div class="card card-hotel d-flex flex-column justify-content-between">
+                <div class="card-body">
+                <h5 class="card-title">Hotel 2</h5>
+                <h6 class="card-subtitle text-muted">Buenos Aires</h6>
+                <img class="card-img-top" src="images/hotel.jpg" alt="hotel img">
+                <p class="card-text">Lorem ipsum dolor,Animi, dolores. Dolores voluptatem a illo?</p>
+                </div>
+                <div>
+                  <button type="button" class="btn btn-primary btn-reserva" id="btn-reserva" data-bs-toggle="modal" data-bs-target="#modal-reserva"><span class="oi oi-plus add-icon"></span>Reservar</button>
+                </div>
+              </div>
+              <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+                <div class="card-header">
+                  Oferta especial de Invierno
+                </div>
+                <div class="card-body">
+                <h5 class="card-title">Hotel 3</h5>
+                <h6 class="card-subtitle text-muted">Entre Ríos</h6>
+                <img class="card-img-top" src="images/hotel.jpg" alt="hotel img">
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur eligendi magnam doloribus? Animi, dolores. Dolores voluptatem a illo?</p>
+                </div>
+                <div>
+                  <button type="button" class="btn btn-primary btn-reserva" id="btn-reserva" data-bs-toggle="modal" data-bs-target="#modal-reserva"><span class="oi oi-plus add-icon"></span>Reservar</button>
+                </div>
+              </div>
+              <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+                <div class="card-body">
+                <h5 class="card-title">Hotel 4</h5>
+                <h6 class="card-subtitle text-muted">Mendoza</h6>
+                <img class="card-img-top" src="images/hotel.jpg" alt="hotel img">
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. a illo?</p>
+                </div>
+                <div>
+                  <button type="button" class="btn btn-primary btn-reserva" id="btn-reserva" data-bs-toggle="modal" data-bs-target="#modal-reserva"><span class="oi oi-plus add-icon"></span>Reservar</button>
+                </div>
+              </div>
+              <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+                <div class="card-body">
+                <h5 class="card-title">Hotel 5</h5>
+                <h6 class="card-subtitle text-muted">Corrientes</h6>
+                <img class="card-img-top" src="images/hotel.jpg" alt="hotel img">
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis animlanditiis ex veritatis rerum, eligendi magnam doloribus? Animi, dolores. Dolores voluptatem a illo?</p>
+                </div>
+                <div>
+                  <button type="button" class="btn btn-primary btn-reserva" id="btn-reserva" data-bs-toggle="modal" data-bs-target="#modal-reserva"><span class="oi oi-plus add-icon"></span>Reservar</button>
+                </div>
+              </div>
+              <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+                <div class="card-body">
+                <h5 class="card-title">Hotel 6</h5>
+                <h6 class="card-subtitle text-muted">Mendoza</h6>
+                <img class="card-img-top" src="images/hotel.jpg" alt="hotel img">
+                <p class="card-text">Lorem ipsum dolor, architecto deserunt assumenda eius dignissimos quibusdam blanditiis ex veritatis rerum, eligendi magnam doloribus? Animi, dolores. Dolores voluptatem a illo?</p>
+                </div>
+                <div>
+                  <button type="button" class="btn btn-primary btn-reserva" id="btn-reserva" data-bs-toggle="modal" data-bs-target="#modal-reserva"><span class="oi oi-plus add-icon"></span>Reservar</button>
+                </div>
+              </div>
+              <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+                <div class="card-header">
+                  Oferta especial de Invierno
+                </div>
+                <div class="card-body">
+                <h5 class="card-title">Hotel 7</h5>
+                <h6 class="card-subtitle text-muted">Buenos Aires</h6>
+                <img class="card-img-top" src="images/hotel.jpg" alt="hotel img">
+                <p class="card-text">Lorem ipsum dolor, Omnis animi nam dignissimos quibusdam blanditiis ex veritatis rerum, eligendi magnam doloribus? Animi, dolores. Dolores voluptatem a illo?</p>
+                </div>
+                <div>
+                  <button type="button" class="btn btn-primary btn-reserva" id="btn-reserva" data-bs-toggle="modal" data-bs-target="#modal-reserva"><span class="oi oi-plus add-icon"></span>Reservar</button>
+                </div>
+              </div>
+              <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+                <div class="card-body">
+                <h5 class="card-title">Hotel 8</h5>
+                <h6 class="card-subtitle text-muted">Entre Ríos</h6>
+                <img class="card-img-top" src="images/hotel.jpg" alt="hotel img">
+                <p class="card-text">Lorem ipsum dolor,  eius dignissimos quibusdam blanditiis ex veritatis rerum, eligendi magnam doloribus? Animi, dolores. Dolores voluptatem a illo?</p>
+                </div>
+                <div>
+                  <button type="button" class="btn btn-primary btn-reserva" id="btn-reserva" data-bs-toggle="modal" data-bs-target="#modal-reserva"><span class="oi oi-plus add-icon"></span>Reservar</button>
+                </div>
+              </div>
+              <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+                <div class="card-body">
+                <h5 class="card-title">Hotel 9</h5>
+                <h6 class="card-subtitle text-muted">Mendoza</h6>
+                <img class="card-img-top" src="images/hotel.jpg" alt="hotel img">
+                <p class="card-text">Lorem architecto deserunt assumenda eius dignissimos quibusdam blanditiis ex veritatis rerum, eligendi magnam doloribus? Animi, dolores. Dolores voluptatem a illo?</p>
+                </div>
+                <div>
+                  <button type="button" class="btn btn-primary btn-reserva" id="btn-reserva" data-bs-toggle="modal" data-bs-target="#modal-reserva"><span class="oi oi-plus add-icon"></span>Reservar</button>
+                </div>
+              </div>
+            
+            </div>
+        </div>
+      </div>
+
+
+      <div class="modal fade" id="modal-reserva" tabindex="-1" aria-labelledby="modal" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Por Favor, ingrese sus datos de contacto</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Nombre y apellido:</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Número Telefónico:</label>
+                  <input type="tel" class="form-control" id="recipient-name">
+                </div>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Email:</label>
+                  <input type="email" class="form-control" id="recipient-name">
+                </div>
+                <hr>
+                <h6>Fecha de reserva</h6>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Desde:</label>
+                  <input type="date" class="form-control" id="recipient-name">
+                </div>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Hasta:</label>
+                  <input type="date" class="form-control" id="recipient-name">
+                </div>
+              </form>
+              <hr>
+              <p>En los próximos 30 minutos será contactado.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-primary">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="row">
+          <div class="col-sm-4 d-flex flex-column">
+            <a href="https://www.instagram.com/gonzaakerbs/">Instagram</a>
+            <a href="https://www.youtube.com/channel/UCK-0jLKjvqDuKxu_TORN1zw">Youtube</a>
+          </div>
+          <div class="col-sm-4">
+            <address>
+              <p><span class="oi oi-home footer-adress-icon"></span>Victor Hugo 455, Entre Rios, Argentina</p>
+              <p><span class="oi oi-phone footer-adress-icon"></span>3435031208</p>
+              <p><span class="oi oi-inbox footer-adress-icon"></span>contacto@guiahoteles.com</p>
+            </address>
+          </div>
+          <div class="col-sm-4 d-flex flex-column align-items-end">
+            <a href="https://www.instagram.com/gonzaakerbs/">Contacto</a>
+            <a href="https://www.youtube.com/channel/UCK-0jLKjvqDuKxu_TORN1zw">Precios y Condiciones</a>
+          </div>
+        </div>  
+      </footer>
+      
+    <script src="js/main.ca23a1701fc5b6adb1be.js"></script>
+  </body>
+</html>
